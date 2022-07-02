@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" 	href="./style/style3.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.3.0/lib/p5.js"></script>
+        <title>ENIEME STUDIO</title>
+
+    </head>
+
+    <body>
+
+<!--______________________________________________________________-->
+
+
+
+<!--LOGO______________________________________________________________-->
+
+   
+    <p class="title">In progress...</p>
+
+
+<!--*DEV*TEMPORAIRE*_________________________________________________________-->
+
+   
+    <div class="home">
+        
+        <div class="textcontainer">
+            <p class="text">enieme</p> 
+            <p class="text2">-<mask>P</mask>ortfolio </p>
+            <p class="text3">- 2022</p>
+        </div>
+        <div class="bar"></div>
+        <a href="index.html" class="hometext">Home</a>
+        <a href="contact.html" class="hometext">Contact</a>
+        <!--
+        <a href="https://github.com/enieme-utilisateur?tab=repositories" target="_blank"><img src="./svg/github.svg"></a>
+        <a href="https://www.linkedin.com/in/eliott-h-454a43217/"><img src="./svg/linkedin.svg" target="_blank"></a>
+        <a href=""><img src="./svg/mail.svg" target="_blank"></a>
+        -->
+        
+    </div>
+
+    
+
+    </body>
+
+    <script>
+
+        let trail = [];
+        let a = 0;
+        
+        function setup() {
+          createCanvas(windowWidth, windowHeight);
+           
+        }
+        
+        function draw() {
+          
+         trail.push([mouseX, mouseY]);
+          for(let i = 0; i < trail.length; i++) {
+          noStroke();
+          fill(171, 133, 255, a);
+          ellipse(trail[i][0], trail[i][1], 4);
+            if(a > 255) {
+              trail.shift();
+              a = 0;
+            }
+            a += 1;
+          }
+        }
+            
+        </script>
+
+</html>

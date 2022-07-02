@@ -1,0 +1,246 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #cccccc;
+  
+  }
+  
+  @font-face {
+    font-family: 'monument';
+    src: url('/fonts/monument-extended-webfont.woff2') format('woff2'),
+         url('/fonts/monument-extended-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+  @font-face {
+    font-family: 'messapia';
+    src: url('/fonts/Messapia-Bold.woff2') format('woff2'),
+         url('/fonts/Messapia-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+  .project a {
+      text-decoration: none;
+      list-style: none;
+  }
+
+  .background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #242526; 
+    
+}
+
+.background img {
+    position: fixed;
+    opacity: 2%;
+    height: 80vh;
+    bottom: 0;
+    left: -10pt;
+}
+
+
+/*////////////////////////*/
+
+.blocktitle{
+    z-index: 70;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 104pt;
+    background-color: #242526;
+}
+
+#title {
+    position: fixed;
+    width: 100%;
+    top: 30pt;
+    left: 0;
+    z-index: 80;
+
+}
+
+.title {
+    display: inline-block;
+    font-family: helvetica;
+    font-size: 15pt; font-weight: 100;
+    top: 0; margin-left: 15pt;
+    color: #808080;
+    opacity: 80%;
+    border: 1pt solid #808080; 
+    border-radius: 20pt;
+    padding-left: 5pt; padding-right: 5.5pt; 
+    padding-top: 1pt;
+    opacity: 100%;
+}
+
+/*////////////////////////*/
+
+.bar {
+    width: 100%;
+    height: 0.1pt;
+    background-color: #808080 ;
+    opacity: 100%;
+}
+
+.bar2 {
+    margin-top: 8pt;
+    width: 100%;
+    height: 0.1pt;
+    background-color: #808080 ;
+    opacity: 100%;
+}
+
+/*////////////////////////*/
+
+#menu {
+    margin-left: 10pt; 
+    margin-top: 5pt; 
+    font-size: 15pt; font-weight: 100;
+    
+}
+
+.menu {
+    color:#808080 ;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
+    padding: 5pt;
+    opacity: 100%;
+}
+
+/*///////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+///////////////////////////////////////////*/
+
+.container {
+    top: 104pt;
+    width: 100vw;
+    position: absolute;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.img {
+    
+    height: 60vh ;
+    overflow: hidden;
+}
+
+.proj {
+    width: 100%;
+    
+}
+
+
+.projtxt {
+    color: white;
+    border-bottom: 0.1pt solid #808080;
+    border-top: 0.1pt solid #808080;
+    padding: 10pt;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+///////////////////////////////////////////*/
+
+
+
+
+
+#footbar {
+    z-index: 102;
+    width: 100%; height: 50pt;
+    background-color: #7B68EE;
+    bottom: 0;
+    position: fixed;
+  }
+  
+  .mention p {
+    display: inline-block;
+    position: absolute;
+    color: #cccccc;
+    margin-left: 5pt; 
+    font-size: 10pt;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+  }
+  
+  
+  .insta {
+    position: absolute;
+    height: 25pt;
+    margin-top: 7pt; margin-left: 8pt;
+    animation: 1s instaload ;
+      animation-delay: 0.5s;
+      opacity: 0;
+      animation-iteration-count: 1;
+      z-index: 100000;
+      animation-fill-mode: forwards;
+  }
+  
+  .mail {
+    position: absolute;
+    height: 30pt;  margin-left: 40pt;  margin-top: 5pt;
+    animation: 1s instaload ;
+      animation-delay: 0.5s;
+      opacity: 0;
+      animation-iteration-count: 1;
+  
+      animation-fill-mode: forwards;
+  }
+  
+  .git {
+    position: absolute;
+    height: 30pt;  margin-left: 75pt;  margin-top: 4pt;
+    animation: 1s instaload ;
+      animation-delay: 0.5s;
+      opacity: 0;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+  }
+  
+  .enieme {
+    position: absolute;
+    height: 30pt; right: 10pt;  margin-top: 5pt;
+    animation: 1s instaload ;
+      animation-delay: 0.5s;
+      opacity: 0;
+      animation-iteration-count: 1;
+  
+      animation-fill-mode: forwards;
+  }
+  
+  
+  @keyframes instaload {
+      0% { opacity: 0;
+           margin-bottom: -10%; }
+      100% { opacity:1;
+            margin-bottom: 8pt; }
+       }
+   

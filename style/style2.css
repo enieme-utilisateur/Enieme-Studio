@@ -1,0 +1,148 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background-color: #3fae5c;
+
+}
+
+@font-face {
+    font-family: 'monument';
+    src: url('fonts/monument-extended-webfont.woff2') format('woff2'),
+         url('fonts/monument-extended-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Clash';
+    src: url('fonts/ClashGrotesk-Medium.woff2') format('woff2'),
+         url('fonts/ClashGrotesk-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*______________________________________________________________*/
+
+.title {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  animation: 1s logoload ;
+	animation-delay: 0.2s;
+  top: 120pt;
+  line-height: 20pt;
+  font-family: helvetica;
+  font-size: max(15vw, 15vw); font-weight: bold;
+  color: #242526;
+  z-index: 102;
+	opacity: 0;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes logoload {
+	0% { opacity: 1;
+		 left: 60pt; }
+	100% { opacity:1;
+		  left: 30pt; }
+	 }
+
+/*______________________________________________________________*/
+
+
+
+.home  {
+  position: absolute;
+  z-index: 102;
+  color: #242526;
+  bottom: 15vh;
+  width: 100%;
+  opacity: 0.8;
+  
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.2s;
+  line-height: 50pt;
+}
+
+.hometext { 
+  font-family: helvetica;
+  font-weight: ;
+  text-decoration: none;
+  color: inherit;
+  font-size: 3vh;
+  padding: 5pt;
+  padding-left: 10pt; padding-right: 10pt;
+  border: solid 2pt #242526;
+  margin-left: 30pt;
+  border-radius: 20pt;
+
+}
+
+a:hover {
+  opacity: 0.7;
+  transition: 0.2s;
+}
+
+.bar {
+  width: 100%;
+  height: 2pt;
+  background-color: #242526;
+  margin-bottom: 20pt;
+}
+
+.home img {
+  padding-top: 10pt;
+  padding-left: 10pt;
+  width: 70pt;
+  transition: 0.2s;
+  visibility: hidden;
+}
+
+img:hover {
+  opacity: 0.7;
+  transition: 0.2s;
+}
+
+.text {
+  line-height: 0;
+  margin-bottom: 3vh;
+  text-align: right;
+  padding-right: 5pt;
+  font-weight: bold;
+}
+
+.text2 {
+  margin-right: 2pt;
+}
+
+.text2 mask{
+  font-family: vivaldi;
+  font-size: 4vh;
+  line-height: 0;
+}
+
+.text3 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.textcontainer {
+  margin-top: 0pt;
+  line-height: 0;
+  padding-right: 20pt;
+  font-family:  Helvetica, sans-serif;
+  font-size: 2vh;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: end;
+}

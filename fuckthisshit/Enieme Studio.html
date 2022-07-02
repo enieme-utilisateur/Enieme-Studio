@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5501/proj.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        
+        
+
+        <title>Enieme Studio</title>
+
+         
+
+    <link rel="stylesheet" href="./Enieme Studio_files/proj.css"><link rel="stylesheet" href="./Enieme Studio_files/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"></head>
+
+<body>
+
+    <div class="background">
+        <img src="./Enieme Studio_files/back.svg">
+    </div>
+
+    
+
+    <!--_____________________________________-->
+
+    <div id="title">
+        <p class="title">Graphic Terrorism</p>
+        <div class="bar"></div>
+        <div id="menu">
+            <a href="http://127.0.0.1:5501/index.html" class="menu">Home</a>
+            <a href="http://127.0.0.1:5501/gallery.html" class="menu">Gallery</a>
+            <a href="http://127.0.0.1:5501/shop.html" class="menu">Shop</a>
+            <a href="http://127.0.0.1:5501/proj.html" class="menu"><span>About</span></a>
+        </div>
+        <div class="bar2"></div>
+    </div>
+
+    <div class="blocktitle"></div>
+
+
+<!--_____________________________________-->
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="proj ">
+            <img src="./Enieme Studio_files/zip.png" class="img ">
+            <p class="projtxt">Zipper Platform Viewer <br>
+        </p></div>
+
+        <div class="proj ">
+            <img src="./Enieme Studio_files/cover.png" class="img ">
+            <p class="projtxt">Pack Pansements<br>
+        </p></div>
+        
+        <div class="proj ">
+            <img src="./Enieme Studio_files/cover.png" class="img ">
+            <p class="projtxt">Pack Pansements<br>
+        </p></div>
+
+        <div class="proj ">
+            <img src="./Enieme Studio_files/cover.png" class="img ">
+            <p class="projtxt">Pack Pansements<br>
+        </p></div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--_____________________________________-->
+
+<div id="footbar">
+    <div class="mention">
+        <img src="./Enieme Studio_files/insta.svg" class="insta">
+        <img src="./Enieme Studio_files/mail.svg" class="mail">
+        <img src="./Enieme Studio_files/github.svg" class="git">
+        <img src="./Enieme Studio_files/enieme.svg" class="enieme">
+        
+
+    </div>
+
+</div>
+
+
+
+<!--_____________________________________-->
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+    <script> 
+    function texture() {
+        document.getElementById("pres").src="cover.png";
+    }
+    function zip() {
+        document.getElementById("pres").src="zip.png";
+    }
+    function type() {
+        document.getElementById("pres").src="type.png";
+    }
+    function sketch() {
+        document.getElementById("pres").src="sketch.png";
+    }
+    function video() {
+        document.getElementById("pres").src="video.png";
+    }
+    function three() {
+        document.getElementById("pres").src="three.png";
+    }
+    
+    </script>
+    
+    </body></html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" 	href="./style/gallery.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+        <title>Enieme Studio</title>
+
+         
+
+    </head>
+
+<body>
+
+    <div class="background">
+        <img src="back.svg">
+    </div>
+
+    
+
+    <!--_____________________________________-->
+
+    <div id="title">
+        <p class="title">Graphic Terrorism</p>
+        <div class="bar"></div>
+        <div id="menu">
+            <a href="index.html" class="menu">Home</a>
+            <a href="gallery.html" class="menu">Gallery</a>
+            <a href="shop.html" class="menu">Shop</a>
+            <a href="" class="menu"><span>About</span></a>
+        </div>
+        <div class="bar2"></div>
+    </div>
+
+    <div class="blocktitle"></div>
+
+<!--PROJECTS BOOTSTRAP_____________________________________
+
+<div class="container" align="left">
+
+    <div class="row">
+
+        <div class="pres col-sm-12 col-md-12 col-lg-4 col-xl-6">
+            <img src="cover.png">
+        </div>
+
+        <div class="project col-sm-12 col-md-12 col-lg-4 col-xl-6">
+            <p class="txtload1">TEXTURE</p>
+            <p class="txtload2">PROJECTS</p>
+            <p class="txtload3">TYPE</p>
+            <p class="txtload4">SKETCHS</p>
+            <p class="txtload5">VIDEO</p>
+            <p class="txtload6">3D</p>
+            <p class="txtload7">TWITCH</p>
+         </div>
+
+    </div>
+
+</div>
+
+-->
+
+<!--PROJECTS_____________________________________-->
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="pres" >
+            <img class="imgpres" src="cover.png" id="pres">
+        </div>
+
+        <div class="project ">
+            <a href="type.html"><p class="txtload1" onmouseover="texture()">TEXTURE</p></a>
+            <a href="proj.html"><p class="txtload2" onmouseover="zip()">PROJECTS</p></a>
+            <a href="type.html"><p class="txtload3" onmouseover="type()">TYPE</p></a>
+            <a href="type.html"><p class="txtload4" onmouseover="sketch()">SKETCHS</p></a>
+            <a href="type.html"><p class="txtload5" onmouseover="video()">VIDEO</p></a>
+            <a href="type.html"><p class="txtload6" onmouseover="three()">3D</p></a>
+            <a href="type.html"><p class="txtload7" onmouseover="twitch()">TWITCH</p></a>
+         </div>
+
+    </div>
+
+</div>
+
+
+<!--_____________________________________-->
+
+<div id="footbar" >
+    <div class="mention">
+        <img src="./svg/insta.svg" class="insta">
+        <img src="./svg/mail.svg" class="mail">
+        <img src="./svg/github.svg" class="git">
+        <img src="./svg/enieme.svg" class="enieme">
+        
+
+    </div>
+
+</div>
+
+
+
+<!--_____________________________________-->
+
+</body>
+
+    <script> 
+    function texture() {
+        document.getElementById("pres").src="cover.png";
+    }
+    function zip() {
+        document.getElementById("pres").src="zip.png";
+    }
+    function type() {
+        document.getElementById("pres").src="type.png";
+    }
+    function sketch() {
+        document.getElementById("pres").src="sketch.png";
+    }
+    function video() {
+        document.getElementById("pres").src="video.png";
+    }
+    function three() {
+        document.getElementById("pres").src="three.png";
+    }
+    
+    </script>
+    
+    </html>

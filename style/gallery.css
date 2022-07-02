@@ -1,0 +1,387 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: #cccccc;
+  
+  }
+  
+  @font-face {
+    font-family: 'monument';
+    src: url('/fonts/monument-extended-webfont.woff2') format('woff2'),
+         url('/fonts/monument-extended-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+  @font-face {
+    font-family: 'messapia';
+    src: url('/fonts/Messapia-Bold.woff2') format('woff2'),
+         url('/fonts/Messapia-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+  .project a {
+      text-decoration: none;
+      list-style: none;
+  }
+
+  .background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #242526; 
+    
+}
+
+.background img {
+    position: fixed;
+    opacity: 2%;
+    height: 80vh;
+    bottom: 0;
+    left: -10pt;
+}
+
+
+/*////////////////////////*/
+
+.blocktitle{
+    z-index: 70;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 104pt;
+    background-color: #242526;
+}
+
+#title {
+    position: fixed;
+    width: 100%;
+    top: 30pt;
+    left: 0;
+    z-index: 80;
+
+}
+
+.title {
+    display: inline-block;
+    font-family: helvetica;
+    font-size: 15pt; font-weight: 100;
+    top: 0; margin-left: 15pt;
+    color: #808080;
+    opacity: 80%;
+    border: 1pt solid #808080; 
+    border-radius: 20pt;
+    padding-left: 5pt; padding-right: 5.5pt; 
+    padding-top: 1pt;
+    opacity: 100%;
+}
+
+/*////////////////////////*/
+
+.bar {
+    width: 100%;
+    height: 0.1pt;
+    background-color: #808080 ;
+    opacity: 100%;
+}
+
+.bar2 {
+    margin-top: 8pt;
+    width: 100%;
+    height: 0.1pt;
+    background-color: #808080 ;
+    opacity: 100%;
+}
+
+/*////////////////////////*/
+
+#menu {
+    margin-left: 10pt; 
+    margin-top: 5pt; 
+    font-size: 15pt; font-weight: 100;
+    
+}
+
+.menu {
+    color:#808080 ;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
+    padding: 5pt;
+    opacity: 100%;
+}
+
+/*///////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+///////////////////////////////////////////*/
+
+.container {
+    position: absolute;
+    top: 103pt; 
+    width: 100vw; height: 100vh;
+    padding: 0 !important;
+    margin: 0 !important;
+   
+}
+
+.project {
+    position: absolute;
+    left: 35vw;
+    z-index: 100;
+    border-left: 0.1pt solid #808080;
+    padding-top: 10pt;
+    width: 80vw; height: 100vh;
+    overflow: hidden;
+}
+
+.project p {
+    color: #808080; 
+    border-bottom: 0.1pt solid #808080;
+    font-size: 50pt;
+    font-family: messapia;
+    transition: 0.4s;
+    cursor: pointer;
+    line-height: 26pt;
+    padding-left: 20pt; padding-top:10pt ;
+    
+    overflow: hidden;
+
+}
+
+.project p:hover {
+    opacity: 60%;
+    transition: 0.5s;
+    line-height: 60pt;
+    color: #7B68EE;
+    transform: skewX(-8deg);
+}
+
+.pres { 
+    margin-top: ;
+    animation: 1s imgload ;
+	animation-delay: 0.6s;
+	opacity: 0;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+.imgpres {
+    width: 35vw;
+}
+
+
+
+@keyframes imgload {
+0%      { opacity: 0; }
+100%    { opacity: 1; }
+	 
+} 
+
+/*//////////////////////////////////////////*/
+
+.txtload1 {
+    animation: 1s txtload1 ;
+	animation-delay: 0.5s;
+	opacity: 0;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+    overflow: hidden;
+}
+
+@keyframes txtload1 {
+0%      { opacity: 0; margin-left: -200pt;}
+100%    { opacity: 100%; margin-left: -9pt;}
+         
+} 
+
+/*//////////////////////////////////////////*/
+
+.txtload2 {
+    animation: 1s txtload2 ;
+	animation-delay: 0.6s;
+	opacity: 0;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes txtload2 {
+0%      { opacity: 0; margin-left: -190pt;}
+100%    { opacity: 100%; margin-left: -9pt;}
+	 
+} 
+
+/*//////////////////////////////////////////*/
+
+.txtload3 {
+    animation: 1s txtload3 ;
+	animation-delay: 0.7s;
+	opacity: 0;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes txtload3 {
+0%      { opacity: 0; margin-left: -170pt;}
+100%    { opacity: 100%; margin-left: -9pt;}
+         
+} 
+
+/*//////////////////////////////////////////*/
+
+.txtload4 {
+    animation: 1s txtload4 ;
+	animation-delay: 0.8s;
+	opacity: 0;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes txtload4 {
+0%      { opacity: 0; margin-left: -140pt;}
+100%    { opacity: 100%; margin-left: -9pt;}
+	 
+} 
+
+/*//////////////////////////////////////////*/
+
+.txtload5 {
+    animation: 1s txtload5 ;
+	animation-delay: 0.9s;
+	opacity: 0;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes txtload5 {
+    0%      { opacity: 0; margin-left: -100pt;}
+    100%    { opacity: 100%; margin-left: -9pt;}
+         
+    } 
+
+/*//////////////////////////////////////////*/
+
+.txtload6 {
+    animation: 1s txtload6 ;
+	animation-delay: 1s;
+	opacity: 0;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes txtload6 {
+0%      { opacity: 0; margin-left: -100pt;}
+100%    { opacity: 100%; margin-left: -9pt;}
+	 
+} 
+
+/*//////////////////////////////////////////*/
+
+.txtload7 {
+    animation: 1s txtload7 ;
+	animation-delay: 1.1s;
+	opacity: 0;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes txtload7 {
+    0%      { opacity: 0; margin-left: -100pt;}
+    100%    { opacity: 100%; margin-left: -9pt;}
+         
+    } 
+
+
+/*///////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+///////////////////////////////////////////*/
+
+
+
+
+
+#footbar {
+    z-index: 102;
+    width: 100%; height: 50pt;
+    background-color: #7B68EE;
+    bottom: 0;
+    position: fixed;
+  }
+  
+  .mention p {
+    display: inline-block;
+    position: absolute;
+    color: #cccccc;
+    margin-left: 5pt; 
+    font-size: 10pt;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+  }
+  
+  
+  .insta {
+    position: absolute;
+    height: 25pt;
+    margin-top: 7pt; margin-left: 8pt;
+    animation: 1s instaload ;
+      animation-delay: 0.5s;
+      opacity: 0;
+      animation-iteration-count: 1;
+      z-index: 100000;
+      animation-fill-mode: forwards;
+  }
+  
+  .mail {
+    position: absolute;
+    height: 30pt;  margin-left: 40pt;  margin-top: 5pt;
+    animation: 1s instaload ;
+      animation-delay: 0.5s;
+      opacity: 0;
+      animation-iteration-count: 1;
+  
+      animation-fill-mode: forwards;
+  }
+  
+  .git {
+    position: absolute;
+    height: 30pt;  margin-left: 75pt;  margin-top: 4pt;
+    animation: 1s instaload ;
+      animation-delay: 0.5s;
+      opacity: 0;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+  }
+  
+  .enieme {
+    position: absolute;
+    height: 30pt; right: 10pt;  margin-top: 5pt;
+    animation: 1s instaload ;
+      animation-delay: 0.5s;
+      opacity: 0;
+      animation-iteration-count: 1;
+  
+      animation-fill-mode: forwards;
+  }
+  
+  
+  @keyframes instaload {
+      0% { opacity: 0;
+           margin-bottom: -10%; }
+      100% { opacity:1;
+            margin-bottom: 8pt; }
+       }
+   
